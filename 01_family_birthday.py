@@ -23,7 +23,7 @@ from lunarcalendar import Converter,Lunar,Solar
 
 
 #-----------------jerry部分开始-----------------
-#根据born_date技术阴历生日
+#根据born_date计算阴历生日
 
 #根据阴历生日查询对于年份的阳历日期（thisyeardate）
 
