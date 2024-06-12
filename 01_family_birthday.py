@@ -13,8 +13,9 @@ from lunarcalendar import Converter,Lunar,Solar
 
 #-----------------苗苗部分开始-----------------
 #提示输入name、born_date、the_year
-
-
+name=wangzhuoran
+born_date=25
+the_year=14
 #-----------------苗苗部分结束-----------------
 
 
