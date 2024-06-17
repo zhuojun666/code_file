@@ -13,9 +13,14 @@ from lunarcalendar import Converter,Lunar,Solar
 
 #-----------------苗苗部分开始-----------------
 #提示输入name、born_date、the_year
-name=wangzhuoran
-born_date=25
-the_year=14
+name=input('输入你的名字:')
+print("姓名："+name)
+born_date=input('输入你的生日:')
+print("生日："+born_date)
+the_year=input('输入年份:')
+print("年份："+the_year)
+
+
 #-----------------苗苗部分结束-----------------
 
 
@@ -31,7 +36,7 @@ the_year=14
 #格式化输出：$name在$the_year的生日是$thisyeardate
 
 
-
+'''
 
 def convert_to_lunar(birth_date):
     # 将阳历生日转换为阴历
@@ -54,5 +59,5 @@ print(f"阴历生日: {lunar_birth_date}")
 target_year = 2024
 solar_birthday = convert_to_solar(lunar_birth_date, target_year)
 print(f"在{target_year}年的阳历生日: {solar_birthday}")
-
+'''
 #-----------------jerry部分结束-----------------
